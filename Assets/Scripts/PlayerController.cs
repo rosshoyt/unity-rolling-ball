@@ -37,6 +37,7 @@ public class PlayerController : MonoBehaviour
             other.gameObject.SetActive(false);
             count++;
             SetCountText();
+            FindObjectOfType<AudioManager>().Play("Pickup");
         }
     }
     private void SetCountText()
