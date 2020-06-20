@@ -612,10 +612,41 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sounds:
-  - name: Pickup
+  - name: Pick_Up
     clip: {fileID: 8300000, guid: 1dabcc1df9caf5b4a938f1a7e84b6ca5, type: 3}
     volume: 1
     pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Music1_Layer1
+    clip: {fileID: 8300000, guid: 361dcc5b5ad3ca34c82ee0db442caa6b, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: Music1_Layer2
+    clip: {fileID: 8300000, guid: d8f5842d5fb512b49ab23ec97745e400, type: 3}
+    volume: 0
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: Music1_Layer3
+    clip: {fileID: 8300000, guid: 1dd1702463ea1e348819556ea4dc192d, type: 3}
+    volume: 0
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: Music2_FullMix
+    clip: {fileID: 8300000, guid: bff13d98931426f42b5f176545c76a5c, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: Success
+    clip: {fileID: 8300000, guid: 07b1c623cf66b484f875d93b6cda251b, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
     source: {fileID: 0}
 --- !u!4 &267821495
 Transform:
@@ -1016,8 +1047,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0.000015258795, y: 3.85186e-34, z: 1.5046328e-36,
-    w: 2.3509887e-38}
+  m_BoundingSphereOverride: {x: 15, y: -17, z: 15, w: 3.8e-44}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
